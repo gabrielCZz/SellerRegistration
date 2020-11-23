@@ -91,7 +91,7 @@ namespace SalesWebMvc.Controllers
             if (id != department.Id)
             {
                 return NotFound();
-            }
+            }            
 
             if (ModelState.IsValid)
             {
